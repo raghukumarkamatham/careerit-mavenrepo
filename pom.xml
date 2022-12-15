@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://52.66.82.175:8081/repository/minutus-release/</url>
+            <url>http://3.233.226.113:8081/repository/minutus-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://52.66.82.175:8081/repository/minutus-snapshots/</url>
+            <url>http://3.233.226.113:8081/repository/minutus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
