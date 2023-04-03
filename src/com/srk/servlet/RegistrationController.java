@@ -43,7 +43,7 @@ public class RegistrationController extends HttpServlet {
 	        if(status>0){  
 	        	response.sendRedirect("viewStudents");
 	        }else{  
-	            out.println("Sorry! unable to save record");  
+	             response.sendRedirect("viewStudents");
 	        }  
 	          
 	        out.close();  
